@@ -1,0 +1,8 @@
+version: "3"
+services: 
+    myminimalapi:
+        build: 
+            context: ./MyMinimalApi
+            dockerfile: Dockerfile
+        ports: 
+            - "8080:80"
